@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use App\Models\Lead;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\View\View;
+use Throwable;
 
 class LeadController extends Controller
 {
@@ -28,7 +30,15 @@ class LeadController extends Controller
             'email.email' => 'Informe um e-mail válido.',
         ]);
 
-        Lead::create($validated);
+        try {
+            Lead::create($validated);
+        } catch (Throwable $e) {
+            // Na Vercel (serverless) não há SQLite persistente; o lead fica no log até haver um banco externo.
+            Log::warning('Lead recebido sem persistência em banco', [
+                'lead' => $validated,
+                'error' => $e->getMessage(),
+            ]);
+        }
 
         return redirect()
             ->route('home')
@@ -36,3 +46,4 @@ class LeadController extends Controller
             ->withFragment('diagnostico');
     }
 }
+
