@@ -43,7 +43,7 @@ class LeadController extends Controller
         return redirect()
             ->route('home')
             ->with('success', 'Recebemos o seu pedido! Em breve o Grupo Candle entra em contato.')
-            ->withFragment('diagnostico');
+            ->withFragment('contato');
     }
 }
 

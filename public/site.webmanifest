@@ -1,0 +1,24 @@
+{
+  "name": "Grupo Candle | Raio-X do CPF",
+  "short_name": "Grupo Candle",
+  "description": "Diagnóstico Financeiro: descubra o motivo real das recusas de crédito com o Raio-X do CPF.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05070d",
+  "theme_color": "#0a1941",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/images/lp/icons/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/lp/icons/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

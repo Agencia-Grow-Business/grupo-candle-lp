@@ -15,7 +15,7 @@ class CheckoutController extends Controller
         return view('checkout', [
             'product' => [
                 'name' => 'Diagnóstico Financeiro',
-                'subtitle' => 'Raio-X do CPF — Grupo Candle',
+                'subtitle' => 'Raio-X do CPF, Grupo Candle',
                 'description' => 'Análise completa da sua situação financeira para descobrir o motivo real das recusas de crédito.',
             ],
             'gateway' => config('checkout.gateway'),
