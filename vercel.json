@@ -18,12 +18,24 @@
             "dest": "/public/build/$1"
         },
         {
+            "src": "/images/(.*)",
+            "dest": "/public/images/$1"
+        },
+        {
+            "src": "/videos/(.*)",
+            "dest": "/public/videos/$1"
+        },
+        {
             "src": "/favicon.ico",
             "dest": "/public/favicon.ico"
         },
         {
-            "src": "/robots.txt",
-            "dest": "/public/robots.txt"
+            "src": "/favicon.png",
+            "dest": "/public/favicon.png"
+        },
+        {
+            "src": "/site.webmanifest",
+            "dest": "/public/site.webmanifest"
         },
         {
             "src": "/(.*)",
