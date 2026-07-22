@@ -2,7 +2,7 @@
     $seoTitle = 'Raio-X do CPF | Diagnóstico Financeiro Grupo Candle';
     $seoDescription = 'Descubra o motivo real das recusas de crédito, mesmo com o nome limpo. O Raio-X do CPF analisa Cadastro, Comportamento e Capacidade e mostra o que fazer a seguir.';
     $seoUrl = url()->current();
-    $seoImage = asset('images/lp/grupo-candle-img-01.jpg');
+    $seoImage = asset('images/lp/karran.jpg');
     $seoLogo = asset('images/lp/logo-candle.png');
     $seoSiteName = 'Grupo Candle';
 @endphp
@@ -300,10 +300,10 @@
                     <figure class="problem__figure">
                         <img
                             class="problem__img"
-                            src="{{ asset('images/lp/grupo-candle-img-01.jpg') }}"
+                            src="{{ asset('images/lp/karran.jpg') }}"
                             alt="Danylo Karran, especialista em crédito do Grupo Candle"
-                            width="720"
-                            height="900"
+                            width="1066"
+                            height="1600"
                             loading="lazy"
                             decoding="async"
                         >
@@ -356,13 +356,77 @@
                     <p class="section__text"><strong>Logo:</strong> antes de contratar qualquer serviço, a decisão mais barata que existe é descobrir a causa. Ler a ficha custa uma fração do que custa tratar a coisa errada por dois anos.</p>
                 </div>
 
-                <aside class="authority" data-reveal="up">
-                    <p class="authority__label">Autoridade</p>
-                    <p class="authority__text">Danylo Karran trabalha com crédito desde 2010, do lado de quem constrói a análise, não de quem sofre com ela. Professor de MBA em investimentos pela UNIP · Mentor na mesa AAA do Santander · Formou analistas CNPI pela BTG Pactual e pela XP Investimentos · 1.600 escritórios parceiros cadastrados no Brasil.</p>
-                </aside>
-
                 <div class="section__cta section__cta--center" data-reveal="up">
                     <x-buy-cta label="Quero o Raio-X do meu CPF" />
+                </div>
+            </div>
+        </section>
+
+        {{-- ================= QUEM É DANYLO KARRAN ================= --}}
+        <section class="section section--ink about-karran" id="danylo-karran" aria-labelledby="danylo-title">
+            <div class="section__inner about-karran__grid">
+                <div class="about-karran__visual" data-reveal="left">
+                    <figure class="about-karran__figure">
+                        <img
+                            class="about-karran__img"
+                            src="{{ asset('images/lp/grupo-candle-img-01.jpg') }}"
+                            alt="Danylo Karran, especialista em crédito do Grupo Candle"
+                            width="1350"
+                            height="1687"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                    </figure>
+                </div>
+
+                <div class="about-karran__copy" data-reveal="right">
+                    <p class="section__label">Quem é Danylo Karran</p>
+                    <h2 class="section__title about-karran__name" id="danylo-title">Danylo Karran</h2>
+                    <p class="about-karran__role">Especialista em crédito · Grupo Candle</p>
+                    <p class="about-karran__lead">
+                        Desde 2010 do lado de quem constrói a análise, não de quem sofre com ela.
+                    </p>
+                    <p class="section__text">
+                        Ele lê a ficha como o banco lê: Cadastro, Comportamento e Capacidade.
+                        Foi assim que já ajudou 2 mil pessoas a descobrir o motivo real das recusas,
+                        antes de gastar com a solução errada.
+                    </p>
+
+                    <ul class="about-karran__creds" aria-label="Credenciais">
+                        <li>
+                            <strong>Professor de MBA</strong>
+                            <span>Investimentos pela UNIP</span>
+                        </li>
+                        <li>
+                            <strong>Mentor na mesa AAA</strong>
+                            <span>Santander</span>
+                        </li>
+                        <li>
+                            <strong>Formação CNPI</strong>
+                            <span>Analistas na BTG Pactual e XP Investimentos</span>
+                        </li>
+                        <li>
+                            <strong>1.600 parceiros</strong>
+                            <span>Escritórios cadastrados no Brasil</span>
+                        </li>
+                    </ul>
+
+                    <div class="about-karran__actions">
+                        <a
+                            class="about-karran__instagram"
+                            href="https://www.instagram.com/karranoficial/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <rect x="3" y="3" width="18" height="18" rx="5"/>
+                                <circle cx="12" cy="12" r="4"/>
+                                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+                            </svg>
+                            @karranoficial
+                        </a>
+                        <x-buy-cta label="Quero o Raio-X do meu CPF" />
+                    </div>
                 </div>
             </div>
         </section>
@@ -392,7 +456,6 @@
                 </div>
 
                 <aside class="for-who__aside" data-reveal="right">
-                    <p class="for-who__aside-label">A virada</p>
                     <p class="for-who__aside-title">Score mostra. Rating decide.</p>
                     <p>Seu Score pode estar alto e ainda assim o Rating travar a aprovação. O Raio-X revela a camada que decide de verdade e mostra se o problema é cadastro, comportamento ou capacidade.</p>
                 </aside>
@@ -403,7 +466,6 @@
         <section class="section section--teal versus" id="diferencial" aria-labelledby="diff-title">
             <div class="section__inner">
                 <header class="section-head section-head--center" data-reveal="up">
-                    <p class="section__label">Exclusividade</p>
                     <h2 class="section__title" id="diff-title">Se você chegou até aqui, o seu caso é provavelmente um destes cinco.</h2>
                     <p class="section__text">Depois de mais de uma década lendo CPF, eu te digo: quase toda recusa “sem motivo” cai em um destes cenários. Veja qual é o seu.</p>
                 </header>

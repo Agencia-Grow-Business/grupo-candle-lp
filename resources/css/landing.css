@@ -1455,7 +1455,7 @@ body.nav-locked {
     }
 }
 
-/* ================= Logic + Authority ================= */
+/* ================= Logic ================= */
 .logic {
     margin: 0 auto 2rem;
     max-width: 52rem;
@@ -1481,29 +1481,194 @@ body.nav-locked {
     letter-spacing: 0.02em;
 }
 
-.authority {
-    margin: 0 auto 1.5rem;
-    max-width: 52rem;
-    padding: 1.35rem 1.5rem;
-    border-radius: 16px;
-    background: linear-gradient(145deg, rgba(240, 90, 34, 0.16), rgba(255, 255, 255, 0.04));
-    border: 1px solid rgba(240, 200, 120, 0.28);
+/* ================= Quem é Danylo Karran ================= */
+.about-karran {
+    position: relative;
+    overflow: hidden;
 }
 
-.authority__label {
-    margin: 0 0 0.45rem;
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
+.about-karran::before {
+    content: '';
+    position: absolute;
+    inset: auto -10% -20% 40%;
+    height: 70%;
+    background: radial-gradient(ellipse at center, rgba(32, 65, 169, 0.35), transparent 68%);
+    pointer-events: none;
+}
+
+.about-karran__grid {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    grid-template-areas:
+        "copy"
+        "visual";
+}
+
+.about-karran__visual {
+    grid-area: visual;
+    min-width: 0;
+}
+
+.about-karran__copy {
+    grid-area: copy;
+    min-width: 0;
+}
+
+.about-karran__figure {
+    margin: 0;
+    border-radius: 0;
+    overflow: hidden;
+    border: 0;
+    box-shadow: none;
+    background: #06122e;
+    clip-path: inset(0 round 28px);
+}
+
+.about-karran__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center 18%;
+}
+
+.about-karran__name {
+    margin-bottom: 0.35rem;
+}
+
+.about-karran__role {
+    margin: 0 0 1.15rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
     color: var(--flame-soft);
 }
 
-.authority__text {
-    margin: 0;
-    color: rgba(255, 255, 255, 0.86);
-    line-height: 1.55;
-    font-size: 0.98rem;
+.about-karran__lead {
+    margin: 0 0 0.9rem;
+    font-family: var(--font-display);
+    font-size: clamp(1.15rem, 2.4vw, 1.4rem);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.35;
+    color: rgba(255, 255, 255, 0.96);
+    max-width: 28ch;
+}
+
+.about-karran__copy .section__text {
+    margin-bottom: 1.5rem;
+    max-width: 38rem;
+}
+
+.about-karran__creds {
+    list-style: none;
+    margin: 0 0 1.75rem;
+    padding: 0;
+    display: grid;
+    gap: 0.95rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding-top: 1.25rem;
+}
+
+.about-karran__creds li {
+    display: grid;
+    gap: 0.12rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--flame);
+}
+
+.about-karran__creds strong {
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--white);
+}
+
+.about-karran__creds span {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.62);
+}
+
+.about-karran__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.85rem 1rem;
+}
+
+.about-karran__instagram {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    min-height: 2.85rem;
+    padding: 0.55rem 1rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: transparent;
+    color: var(--white);
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    transition:
+        transform 0.25s var(--ease),
+        border-color 0.25s var(--ease),
+        background 0.25s var(--ease),
+        color 0.25s var(--ease);
+}
+
+.about-karran__instagram:hover {
+    transform: translateY(-2px);
+    border-color: rgba(240, 90, 34, 0.55);
+    background: rgba(240, 90, 34, 0.12);
+    color: var(--flame-soft);
+}
+
+.about-karran__instagram svg {
+    width: 1.15rem;
+    height: 1.15rem;
+    flex-shrink: 0;
+}
+
+@media (min-width: 900px) {
+    .about-karran__grid {
+        grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+        grid-template-areas: "visual copy";
+        gap: 3.25rem;
+        align-items: center;
+    }
+
+    .about-karran__img {
+        max-height: min(720px, 82vh);
+        aspect-ratio: 3 / 4;
+    }
+
+    .about-karran__creds {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.1rem 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-karran__actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .about-karran__instagram,
+    .about-karran__actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .about-karran__lead {
+        max-width: none;
+    }
 }
 
 /* ================= Scenarios ================= */
