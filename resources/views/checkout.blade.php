@@ -62,8 +62,9 @@
                     </ul>
                     <div class="checkout__price-box">
                         <p class="checkout__price-label">Investimento</p>
-                        <p class="checkout__price">R$ [valor]</p>
-                        <p class="checkout__price-note">ou [X]x de R$ [valor]</p>
+                        <p class="checkout__price-full">De R$ 179,90</p>
+                        <p class="checkout__price">Por R$ 89,90</p>
+                        <p class="checkout__price-note">Pagamento somente via Pix</p>
                     </div>
                 </aside>
 
@@ -82,7 +83,7 @@
                                 <p class="checkout__status-title">Pagamento em preparação</p>
                                 <p class="checkout__status-text">
                                     Estamos finalizando a integração do gateway. Em breve você conclui a compra
-                                    direto nesta página, com Pix, cartão ou boleto.
+                                    direto nesta página, com pagamento somente via Pix.
                                 </p>
                             </div>
                         </div>

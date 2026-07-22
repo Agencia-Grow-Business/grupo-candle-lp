@@ -215,7 +215,7 @@
                     </p>
 
                     <h1 class="hero__title">
-                        Descubra em [X horas] o motivo real pelo qual o banco
+                        Descubra em poucos minutos o motivo real pelo qual o banco
                         <em>recusa o seu crédito</em>, mesmo com o nome limpo.
                     </h1>
                 </div>
@@ -311,7 +311,7 @@
 
                     <blockquote class="problem__quote">
                         <p>“Meu nome está limpo e mesmo assim nenhum banco aprova.”</p>
-                        <p>Se essa frase é sua, existe uma explicação, e ela tem nome. O Raio-X do CPF abre as três camadas da sua ficha e te mostra, preto no branco, qual delas está te derrubando. Em [X horas], você sai com o diagnóstico completo e o caminho definido. Sem chute. Sem contratar serviço torcendo pra dar certo.</p>
+                        <p>Se essa frase é sua, existe uma explicação, e ela tem nome. O Raio-X do CPF abre as três camadas da sua ficha e te mostra, preto no branco, qual delas está te derrubando. Em poucos minutos, você sai com o diagnóstico completo e o caminho definido. Sem chute. Sem contratar serviço torcendo pra dar certo.</p>
                     </blockquote>
                 </div>
 
@@ -330,7 +330,7 @@
 
                     <p class="section__text">Milhões de brasileiros com o nome limpo são recusados todos os dias e nunca recebem uma explicação. Nem do banco, nem da financeira, nem do gerente. Só o “não foi possível aprovar neste momento”, e o silêncio depois.</p>
                     <p class="section__text"><strong>Isso não é falta de sorte. É falta de informação.</strong></p>
-                    <p class="section__text">Todo CPF é lido por um algoritmo em três camadas. Quem descobre qual das três está travando o próprio crédito para de gastar dinheiro no escuro e passa a resolver a coisa certa, na ordem certa. Foi exatamente isso que aconteceu com [X] pessoas que já fizeram o Raio-X do CPF com o Grupo Candle.</p>
+                    <p class="section__text">Todo CPF é lido por um algoritmo em três camadas. Quem descobre qual das três está travando o próprio crédito para de gastar dinheiro no escuro e passa a resolver a coisa certa, na ordem certa. Foi exatamente isso que aconteceu com 2 mil pessoas que já fizeram o Raio-X do CPF com o Grupo Candle.</p>
 
                     <div class="section__cta">
                         <a class="btn btn--ink" href="#investimento">Ver o valor do diagnóstico ↓</a>
@@ -358,7 +358,7 @@
 
                 <aside class="authority" data-reveal="up">
                     <p class="authority__label">Autoridade</p>
-                    <p class="authority__text">Danylo Karran trabalha com crédito desde 2010, do lado de quem constrói a análise, não de quem sofre com ela. Professor de MBA em investimentos pela UNIP · Mentor na mesa AAA do Santander · Formou analistas CNPI pela BTG Pactual e pela XP Investimentos · [1.600] escritórios parceiros cadastrados no Brasil.</p>
+                    <p class="authority__text">Danylo Karran trabalha com crédito desde 2010, do lado de quem constrói a análise, não de quem sofre com ela. Professor de MBA em investimentos pela UNIP · Mentor na mesa AAA do Santander · Formou analistas CNPI pela BTG Pactual e pela XP Investimentos · 1.600 escritórios parceiros cadastrados no Brasil.</p>
                 </aside>
 
                 <div class="section__cta section__cta--center" data-reveal="up">
@@ -373,7 +373,7 @@
                 <div class="for-who__copy" data-reveal="left">
                     <p class="section__label">Para quem é</p>
                     <h2 class="section__title" id="para-quem-title">Este é o exame que mostra exatamente por que o seu crédito é negado, e o que fazer a respeito.</h2>
-                    <p class="section__text">Em [X horas], sem sair de casa, sem enviar documento pra desconhecido.</p>
+                    <p class="section__text">Em poucos minutos, sem sair de casa, sem enviar documento pra desconhecido.</p>
                     <p class="section__text"><strong>O que você provavelmente já tentou:</strong></p>
 
                     <ul class="check-list">
@@ -448,7 +448,7 @@
         <section class="section section--ink insights" aria-labelledby="insights-title">
             <div class="section__inner">
                 <header class="section-head section-head--center" data-reveal="up">
-                    <h2 class="section__title" id="insights-title">Pare de tentar no escuro. Descubra a causa em [X horas] com o Raio-X do CPF.</h2>
+                    <h2 class="section__title" id="insights-title">Pare de tentar no escuro. Descubra a causa em poucos minutos com o Raio-X do CPF.</h2>
                 </header>
 
                 <div class="insights__grid">
@@ -496,7 +496,7 @@
                             <h3>Você solicita e envia seus dados</h3>
                             <p>Você clica no botão, faz o pagamento e preenche um formulário curto com os dados necessários para a análise.</p>
                             <p class="flow__meta"><strong>O que acontece:</strong> o seu CPF entra na fila de análise no mesmo dia.</p>
-                            <p class="flow__meta"><strong>O seu benefício:</strong> leva [X minutos]. É a última coisa que você precisa fazer.</p>
+                            <p class="flow__meta"><strong>O seu benefício:</strong> em poucos minutos. É a última coisa que você precisa fazer.</p>
                         </div>
                     </li>
                     <li class="flow__item" data-reveal="up" style="--d:.06s">
@@ -512,7 +512,7 @@
                         <span class="flow__num">03</span>
                         <div>
                             <h3>Você recebe o Diagnóstico e o caminho</h3>
-                            <p>Em [X horas] você recebe o Raio-X completo: a causa, a ordem de prioridade, o prazo e a indicação de solução. [Formato / reunião / meio de entrega: PDF/áudio, a confirmar.]</p>
+                            <p>Em poucos minutos você recebe o Raio-X completo: a causa, a ordem de prioridade, o prazo e a indicação de solução. A entrega inclui o diagnóstico em PDF, um resumo simplificado no WhatsApp e a explicação do diagnóstico por áudio ou ligação.</p>
                             <p class="flow__meta"><strong>O que acontece:</strong> você lê a sua ficha pela primeira vez na vida.</p>
                             <p class="flow__meta"><strong>O seu benefício:</strong> você para de apostar. E se o diagnóstico apontar que você não precisa contratar nada, nós vamos te dizer isso com todas as letras.</p>
                         </div>
@@ -661,7 +661,7 @@
                 <div class="invest__copy" data-reveal="left">
                     <p class="section__label">Investimento</p>
                     <h2 class="section__title" id="invest-title">Quanto custa ler a própria ficha</h2>
-                    <p class="section__text">Um Limpa Nome contratado sem diagnóstico custa a partir de R$ [599], e não resolve nada se o seu problema for Rating ou renda comprometida. Uma consultoria completa de reabilitação custa R$ [10.000+], e pode ser desnecessária no seu caso. Uma recusa de financiamento custa o imóvel que subiu de preço enquanto você tentava.</p>
+                    <p class="section__text">Um Limpa Nome contratado sem diagnóstico custa a partir de R$ 1.299, e não resolve nada se o seu problema for Rating ou renda comprometida. Uma consultoria especializada custa R$ 6.900, e pode ser desnecessária no seu caso. Uma recusa de financiamento custa o imóvel que subiu de preço enquanto você tentava.</p>
                     <ul class="check-list">
                         <li>Leitura das três camadas do CPF</li>
                         <li>Score, Rating, renda, cadastro e pendências ocultas</li>
@@ -680,12 +680,12 @@
                         <li>Rating, Score, renda e pendências</li>
                         <li>Mapa do que fazer em seguida</li>
                     </ul>
-                    <p class="invest__price-full">De R$ [valor cheio]</p>
-                    <p class="invest__price">Por R$ [valor]</p>
-                    <p class="invest__installments">ou [X]x de R$ [valor]</p>
-                    <p class="invest__note">Entrega em [X horas]. Pagamento via [Pix / cartão / boleto].</p>
+                    <p class="invest__price-full">De R$ 179,90</p>
+                    <p class="invest__price">Por R$ 89,90</p>
+                    <p class="invest__installments">Pagamento somente via Pix</p>
+                    <p class="invest__note">Entrega em poucos minutos. Diagnóstico em PDF, resumo no WhatsApp e explicação por áudio ou ligação.</p>
                     <x-buy-cta label="Quero o Raio-X do meu CPF" block />
-                    <p class="invest__meta">[Pix / cartão / boleto, definir]</p>
+                    <p class="invest__meta">Pagamento somente via Pix</p>
                 </aside>
             </div>
         </section>
@@ -752,7 +752,7 @@
                             <span class="faq__q">Em quanto tempo eu recebo?</span>
                         </summary>
                         <div class="faq__body">
-                            <p>[X horas] após o pagamento e o envio dos dados.</p>
+                            <p>Em poucos minutos após o pagamento e o envio dos dados.</p>
                         </div>
                     </details>
                     <details class="faq__item">
@@ -761,7 +761,7 @@
                             <span class="faq__q">O que eu recebo, na prática?</span>
                         </summary>
                         <div class="faq__body">
-                            <p>[Formato, PDF / reunião / áudio: definir.] O documento traz a causa identificada, a ordem de prioridade, o prazo estimado de resolução e a indicação de solução para o seu caso.</p>
+                            <p>Você recebe o diagnóstico em PDF, um resumo simplificado no WhatsApp e a explicação do diagnóstico por áudio ou ligação. O documento traz a causa identificada, a ordem de prioridade, o prazo estimado de resolução e a indicação de solução para o seu caso.</p>
                         </div>
                     </details>
                     <details class="faq__item">
@@ -806,7 +806,7 @@
                             <span class="faq__q">Formas de pagamento?</span>
                         </summary>
                         <div class="faq__body">
-                            <p>[Pix / cartão / boleto, definir.]</p>
+                            <p>Pagamento somente via Pix.</p>
                         </div>
                     </details>
                 </div>
